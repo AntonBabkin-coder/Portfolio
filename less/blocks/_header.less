@@ -33,6 +33,10 @@
   font-weight: 900;
 }
 
+.header-logo:hover {
+  opacity: 0.5;
+}
+
 .header-logo::after {
   content: "";
   position: absolute;
@@ -94,9 +98,14 @@
   }
 }
 
+.header-social-line {
+  padding-right: 65px;
+}
+
 .fa-linkedin {
   margin-right: 15px;
   color: #000;
+  transition: 0.2s ease-in;
 }
 
 .fa-linkedin:hover {
@@ -106,6 +115,7 @@
 .fa-github {
   margin-right: 15px;
   color: #000;
+  transition: 0.2s ease-in;
 }
 
 .fa-github:hover {
@@ -114,6 +124,7 @@
 
 .fa-vk {
   color: #000;
+  transition: 0.2s ease-in;
 }
 
 .fa-vk:hover {
@@ -129,10 +140,6 @@
 .header-skills {
   position: relative;
   margin-top: -20px;
-}
-
-.header-list {
-  margin-right: 165px;
 }
 
 .sub-title {
@@ -156,6 +163,7 @@
 
 .header-skills__content {
   display: flex;
+  justify-content: space-between;
 }
 
 .email {
