@@ -546,6 +546,7 @@ button {
 .portfolio-card__text {
   font-weight: 300;
   font-size: 20px;
+  color: black;
 }
 .portfolio-card__text-big {
   font-size: 22px;
